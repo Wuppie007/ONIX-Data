@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OnixData</RootNamespace>
     <AssemblyName>OnixData</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>default</LangVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,6 +93,7 @@
     <Compile Include="Version3\Content\OnixContentDetail.cs" />
     <Compile Include="Version3\Names\OnixNameIdentifier.cs" />
     <Compile Include="Version3\OnixBarcode.cs" />
+    <Compile Include="Version3\Price\OnixDate.cs" />
     <Compile Include="Version3\Price\OnixDiscount.cs" />
     <Compile Include="Version3\Price\OnixDiscountCoded.cs" />
     <Compile Include="Version3\ProductPart\OnixProductPart.cs" />

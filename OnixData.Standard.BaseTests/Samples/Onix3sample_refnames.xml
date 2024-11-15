@@ -5,7 +5,7 @@
 		<Sender>
 			<SenderIdentifier>
 				<SenderIDType>01</SenderIDType>
-			    <IDTypeName>W3C CCG DID</IDTypeName>
+				<IDTypeName>W3C CCG DID</IDTypeName>
 				<IDValue>did:ethr:0x94618601FE6cb8912b274E5a00453949A57f8C1e</IDValue>
 			</SenderIdentifier>
 			<SenderName>Global Bookinfo</SenderName>
@@ -15,9 +15,9 @@
 		<Addressee>
 			<AddresseeIdentifier>
 				<AddresseeIDType>01</AddresseeIDType>
-			    <IDTypeName>W3C CCG DID</IDTypeName>
+				<IDTypeName>W3C CCG DID</IDTypeName>
 				<IDValue>did:ethr:0x94618601FE6cb8912b274E5a00453949A57f8C1e</IDValue>
-			</AddresseeIdentifier>			
+			</AddresseeIdentifier>
 			<AddresseeName>BooksBooksBooks.com</AddresseeName>
 		</Addressee>
 		<MessageNumber>231</MessageNumber>
@@ -151,7 +151,8 @@
 						television and radio plays, and was managing editor of several magazines, before becoming a
 						full-time writer.
 					</p>
-					<p>He is best known for the series of ten <em>Martin Beck</em> novels he wrote with wife Maj
+					<p>
+						He is best known for the series of ten <em>Martin Beck</em> novels he wrote with wife Maj
 						Sjöwall, which they completed immediately before his death in 1975.
 					</p>
 				</BiographicalNote>
@@ -182,11 +183,11 @@
 				</NameIdentifier>
 				<NamesBeforeKey>Henning</NamesBeforeKey>
 				<KeyNames>Mankell I</KeyNames>
-        <AlternativeName>
-          <NameType>04</NameType>
-          <NamesBeforeKey>Henning</NamesBeforeKey>
-          <KeyNames>Mankell</KeyNames>
-        </AlternativeName>        
+				<AlternativeName>
+					<NameType>04</NameType>
+					<NamesBeforeKey>Henning</NamesBeforeKey>
+					<KeyNames>Mankell</KeyNames>
+				</AlternativeName>
 			</Contributor>
 			<ContributorStatement>By Maj Sjöwall and Per Wahlöö, translated by Lois Roth</ContributorStatement>
 			<NoEdition/>
@@ -237,7 +238,8 @@
 			</Subject>
 			<Subject>
 				<SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
-				<SubjectHeadingText>Martin Beck; Roseanna McGraw; Lake Vättern; Stockholm; police procedural
+				<SubjectHeadingText>
+					Martin Beck; Roseanna McGraw; Lake Vättern; Stockholm; police procedural
 				</SubjectHeadingText>
 			</Subject>
 			<Audience>
@@ -255,7 +257,8 @@
 				<ContentAudience>00</ContentAudience>
 				<Text textformat="05">
 					<p>
-						<strong>Perennial relaunches the first novel in the classic Martin Beck detective series from
+						<strong>
+							Perennial relaunches the first novel in the classic Martin Beck detective series from
 							the 1960s
 						</strong>
 						– the novels that have inspired all crime fiction written ever since.
@@ -266,12 +269,14 @@
 				<TextType>03</TextType>
 				<ContentAudience>00</ContentAudience>
 				<Text textformat="05">
-					<p>Widely recognised as the among the greatest crime fiction ever written, this is the first of a
+					<p>
+						Widely recognised as the among the greatest crime fiction ever written, this is the first of a
 						series of stories that pioneered the police procedural genre. The series was translated into 35
 						languages, sold over 10 million copies around the world, and inspired writers from Henning
 						Mankell to Jonathan Franzen.
 					</p>
-					<p>Written in 1965, <em>Roseanna</em> is the work of Maj Sjöwall and Per Wahlöö – a husband and wife
+					<p>
+						Written in 1965, <em>Roseanna</em> is the work of Maj Sjöwall and Per Wahlöö – a husband and wife
 						team from Sweden, and this volume has a new introduction to help bring their work to a new
 						audience. The novel follows the fortunes of the detective Martin Beck, whose enigmatic and
 						taciturn character has inspired countless other policemen in crime fiction.
@@ -283,7 +288,8 @@
 						her name is Roseanna, that she came from Lincoln, Nebraska, and that she could have been
 						strangled by any one of eighty-five people.
 					</p>
-					<p>With its authentically rendered settings and vividly realized characters, and its command over
+					<p>
+						With its authentically rendered settings and vividly realized characters, and its command over
 						the intricately woven details of police detection, <em>Roseanna</em> is a masterpiece of
 						suspense and sadness.
 					</p>
@@ -293,7 +299,8 @@
 				<TextType>06</TextType>
 				<ContentAudience>00</ContentAudience>
 				<Text textformat="05">
-					<p>‘The writing is elegant and surprisingly humorous – if you haven’t come across Beck before,
+					<p>
+						‘The writing is elegant and surprisingly humorous – if you haven’t come across Beck before,
 						you’re in for a treat.’
 					</p>
 				</Text>
@@ -303,7 +310,8 @@
 				<TextType>06</TextType>
 				<ContentAudience>00</ContentAudience>
 				<Text textformat="05">
-					<p>‘Their mysteries don’t just read well; they reread even better. Witness, wife, petty cop or crook
+					<p>
+						‘Their mysteries don’t just read well; they reread even better. Witness, wife, petty cop or crook
 						– they’re all real characters even if they get just a few sentences. The plots hold, because
 						they’re ingenious but never inhuman.’
 					</p>
@@ -321,7 +329,8 @@
 				<SourceType>01</SourceType>
 				<SourceTitle>Observer Magazine</SourceTitle>
 				<CitationNote>Interview with Maj Sjöwall by Louise France</CitationNote>
-				<ResourceLink>http://www.guardian.co.uk/books/2009/nov/22/crime-thriller-maj-sjowall-sweden
+				<ResourceLink>
+					http://www.guardian.co.uk/books/2009/nov/22/crime-thriller-maj-sjowall-sweden
 				</ResourceLink>
 				<ContentDate>
 					<ContentDateRole>01</ContentDateRole>
@@ -398,7 +407,8 @@
 			<SalesRights>
 				<SalesRightsType>01</SalesRightsType>
 				<Territory>
-					<CountriesIncluded>AG AI AU BB BD BM BN BS BW BZ CM CY DM EG FJ FK GB GD GG GH GI GM GY HK IE IL IM
+					<CountriesIncluded>
+						AG AI AU BB BD BM BN BS BW BZ CM CY DM EG FJ FK GB GD GG GH GI GM GY HK IE IL IM
 						IN IO JE JM JO KE KI KN KW KY LC LK LS MT MU MV MW MY MZ NA NG NR NZ PG PK PN SB SC SD SG SH SL
 						SO SZ TC TO TT TV TZ UG VC VG VU WS YE RS ME ZA ZM ZW
 					</CountriesIncluded>
@@ -464,57 +474,21 @@
 					</SupplierIdentifier>
 					<SupplierName>HarperCollins Publishers</SupplierName>
 					<TelephoneNumber>+44 1417 723200</TelephoneNumber>
-				  <Website>
-					<WebsiteRole>01</WebsiteRole>
-					<WebsiteLink>http://www.harpercollins.co.uk</WebsiteLink>
-				  </Website>
+					<Website>
+						<WebsiteRole>01</WebsiteRole>
+						<WebsiteLink>http://www.harpercollins.co.uk</WebsiteLink>
+					</Website>
 				</Supplier>
 				<ReturnsConditions>
 					<ReturnsCodeType>02</ReturnsCodeType>
 					<ReturnsCode>Y</ReturnsCode>
 				</ReturnsConditions>
 				<ProductAvailability>21</ProductAvailability>
-        <SupplyDate>
-          <SupplyDateRole>18</SupplyDateRole>
-          <Date>01/21/2022</Date>
-        </SupplyDate>
+				<SupplyDate>
+					<SupplyDateRole>18</SupplyDateRole>
+					<Date>01/21/2022</Date>
+				</SupplyDate>
 				<PackQuantity>16</PackQuantity>
-				<Price>
-					<PriceType>02</PriceType>
-					<DiscountCoded>
-						<DiscountCodeType>01</DiscountCodeType>
-						<DiscountCode>AHACP029</DiscountCode>
-					</DiscountCoded>
-					<PriceStatus>02</PriceStatus>
-					<PriceAmount>7.99</PriceAmount>
-					<Tax>
-						<TaxType>01</TaxType>
-						<TaxRateCode>Z</TaxRateCode>
-						<TaxRatePercent>0</TaxRatePercent>
-						<TaxableAmount>7.99</TaxableAmount>
-						<TaxAmount>0.00</TaxAmount>
-					</Tax>
-					<CurrencyCode>GBP</CurrencyCode>
-					<Territory>
-						<CountriesIncluded>GB</CountriesIncluded>
-					</Territory>
-					<PrintedOnProduct>02</PrintedOnProduct>
-					<PositionOnProduct>01</PositionOnProduct>
-				</Price>
-				<Price>
-					<PriceType>01</PriceType>
-					<Discount>
-						<DiscountPercent>37.5</DiscountPercent>
-					</Discount>
-					<PriceStatus>02</PriceStatus>
-					<PriceAmount>8.99</PriceAmount>
-					<CurrencyCode>EUR</CurrencyCode>
-					<Territory>
-						<CountriesIncluded>AT BE CY FI FR DE ES GR IE IT LU MT NL PT SI SK AD MC ME SM VA
-						</CountriesIncluded>
-					</Territory>
-					<PrintedOnProduct>01</PrintedOnProduct>
-				</Price>
 				<Price>
 					<PriceType>01</PriceType>
 					<Discount>
@@ -523,22 +497,24 @@
 					<PriceStatus>02</PriceStatus>
 					<PriceAmount>7.99</PriceAmount>
 					<CurrencyCode>GBP</CurrencyCode>
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date>20220101</Date>
+					</PriceDate>
+					<PriceDate>
+						<PriceDateRole>15</PriceDateRole>
+						<Date>20220701</Date>
+					</PriceDate>
 					<Territory>
 						<RegionsIncluded>WORLD</RegionsIncluded>
-						<CountriesExcluded>GB AT BE CY FI FR DE ES GR IE IT LU MT NL PT SI SK AD MC ME SM VA AS AU CA GU
+						<CountriesExcluded>
+							GB AT BE CY FI FR DE ES GR IE IT LU MT NL PT SI SK AD MC ME SM VA AS AU CA GU
 							MP NZ PH PR US VI ZA
 						</CountriesExcluded>
 					</Territory>
 					<PrintedOnProduct>01</PrintedOnProduct>
 				</Price>
-        <Price>
-          <PriceType>01</PriceType>
-          <PriceStatus>02</PriceStatus>
-          <PriceAmount>10.99</PriceAmount>
-          <CurrencyCode>USD</CurrencyCode>
-          <PrintedOnProduct>01</PrintedOnProduct>
-        </Price>
-      </SupplyDetail>
+			</SupplyDetail>
 		</ProductSupply>
 		<!-- aggregator could add other ProductSupply sections here, for AU/NZ and ZA distributors -->
 	</Product>

@@ -56,7 +56,8 @@ namespace OnixData.Version3.Price
 
             discountField      = shortDiscountField      = new OnixDiscount[0];
             discountCodedField = shortDiscountCodedField = new OnixDiscountCoded[0];
-        }
+			datesCodedField = datesCodedField = new OnixDate[0];
+		}
 
         private int          priceTypeField;
         private string       priceAmountField;
@@ -66,11 +67,14 @@ namespace OnixData.Version3.Price
 
         private OnixDiscount[] discountField;
         private OnixDiscount[] shortDiscountField;
+        private OnixDate[] datesField;
 
         private OnixDiscountCoded[] discountCodedField;
         private OnixDiscountCoded[] shortDiscountCodedField;
+		private OnixDate[] datesCodedField;
 
-        private OnixTerritory territoryField;
+
+		private OnixTerritory territoryField;
 
         #region Helper Methods
 
@@ -202,12 +206,27 @@ namespace OnixData.Version3.Price
             }
         }
 
-        #endregion 
 
-        #region Reference Tags
+		public OnixDate[] OnixDatesField
+		{
+			get
+			{
+				OnixDate[] DatesList = null;
 
-        /// <remarks/>
-        public int PriceType
+				if (datesField != null)
+					DatesList = this.datesField;
+				else
+					DatesList = new OnixDate[0];
+
+				return DatesList;
+			}
+		}
+		#endregion
+
+		#region Reference Tags
+
+		/// <remarks/>
+		public int PriceType
         {
             get
             {
@@ -353,8 +372,16 @@ namespace OnixData.Version3.Price
             set { shortDiscountCodedField = value; }
         }
 
-        /// <remarks/>
-        public string j192
+		/// <remarks/>
+		[System.Xml.Serialization.XmlElementAttribute("pricedate")]
+		public OnixDate[] datecoded
+		{
+			get { return datesCodedField; }
+			set { datesCodedField = value; }
+		}
+
+		/// <remarks/>
+		public string j192
         {
             get { return UnpricedItemType; }
             set { UnpricedItemType = value; }
