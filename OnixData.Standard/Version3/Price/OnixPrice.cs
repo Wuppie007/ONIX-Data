@@ -56,7 +56,7 @@ namespace OnixData.Version3.Price
 
 			discountField = shortDiscountField = new OnixDiscount[0];
 			discountCodedField = shortDiscountCodedField = new OnixDiscountCoded[0];
-			datesCodedField = datesCodedField = new OnixDate[0];
+            datesField = datesCodedField = new OnixDate[0];
 		}
 
 		private int priceTypeField;
@@ -206,7 +206,6 @@ namespace OnixData.Version3.Price
 			}
 		}
 
-
 		public OnixDate[] OnixDatesField
 		{
 			get
@@ -310,11 +309,11 @@ namespace OnixData.Version3.Price
 		{
 			get
 			{
-				return this.datesCodedField;
+				return this.datesField;
 			}
 			set
 			{
-				this.datesCodedField = value;
+				this.datesField = value;
 			}
 		}
 
