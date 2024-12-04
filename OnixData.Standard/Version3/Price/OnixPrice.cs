@@ -56,7 +56,7 @@ namespace OnixData.Version3.Price
 
 			discountField = shortDiscountField = new OnixDiscount[0];
 			discountCodedField = shortDiscountCodedField = new OnixDiscountCoded[0];
-            datesField = datesCodedField = new OnixDate[0];
+            datesField = new OnixDate[0];
 		}
 
 		private int priceTypeField;
@@ -71,8 +71,6 @@ namespace OnixData.Version3.Price
 
 		private OnixDiscountCoded[] discountCodedField;
 		private OnixDiscountCoded[] shortDiscountCodedField;
-		private OnixDate[] datesCodedField;
-
 
 		private OnixTerritory territoryField;
 
